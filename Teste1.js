@@ -10,6 +10,7 @@ if (numeroUm == stringUm) {
   } else {
     console.log('As variáveis numeroUm e stringUm não tem o mesmo valor')
   }
+  //Importante o operador === não compara apenas os valores contidos nas variáveis, mas também o tipo lógico( borleano, string, number etc.)
   if (numeroTrinta === stringTrinta) {
     console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')
   } else {
