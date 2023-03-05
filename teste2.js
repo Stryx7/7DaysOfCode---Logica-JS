@@ -8,12 +8,10 @@ let opcao = prompt(
   `Está gosta de estudar ${linguagem}? Responda: 1 SIM, 2 NÃO`
 );
 
-while (opcao == 1 || opcao == 2) {
-  if (opcao == 1) {
+ if (opcao == 1) {
     alert("Muito bom! Continue estudando e você terá muito sucesso!");
-    break; 
   } else if (opcao == 2) {
-    alert("Ahh que pena... Já tentou aprender outras linguagens?");
-    break;  
-  } 
+    alert("Ahh que pena... Já tentou aprender outras linguagens?"); 
+  } else{
+  alert ("você não deu uma resposta válida...");
 }
