@@ -12,6 +12,8 @@ if (disciplina == 1) {
         x = 0;
     } else if (materia == 2){
         x = 1;
+    } else {
+        alert("Você não digitou uma resposta válida. Por favor, digite 1 ou 2.");
     }
 } else if (disciplina == 2) {
     materia = prompt ("Qual matéria do Back-End você deseja aprender? Responda: 1-C# 2-Java");
@@ -19,17 +21,21 @@ if (disciplina == 1) {
         x = 2;
     } else if (materia ==2){
         x = 3;
+    } else {
+        alert("Você não digitou uma resposta válida. Por favor, digite 1 ou 2..");
     }
 } else {
-    alert("Você não digitou uma resposta válida, encerraremos o programa.");
+    alert("Você não digitou uma resposta válida.");
 }
 
 resposta = prompt (`Você prefere se especializar em ${especializacao[x]} ou se tornar um FullStack? Responda: 1 ${especializacao[x]} ou 2-FullStack`);
 
 if(resposta == 1){
 alert(`Muito bem! Boa sorte com sua especialização em ${especializacao[x]}`);
-} else {
+} else if (resposta == 2){
 alert(`Parabéns! Boa sorte na sua jornada como FullStack!`);
+} else{
+    alert("Você não digitou uma resposta válida.");
 }
 
 while(contador != 0){
