@@ -29,10 +29,6 @@ while(resposta == "sim") {
         alert("resposta inválida, enceraremos o programa.");
         break;
     }
-
-    
-    
-   
 }
 
 
