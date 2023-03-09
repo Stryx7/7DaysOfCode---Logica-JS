@@ -20,7 +20,7 @@ while(resposta == "sim") {
         } else if( categoria == 4) {
             guloseimas.push(comida);
         } else{
-            alert("você digitou uma opção, inválida tente novamente.");
+            alert("você digitou uma opção inválida, tente novamente.");
         }
     } else if (resposta == "não") {
         alert(`Lista de Compras:\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Carnes: ${carnes} \n Guloseimas: ${guloseimas}`);
